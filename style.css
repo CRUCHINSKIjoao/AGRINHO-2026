@@ -1,8 +1,74 @@
-body{
-    background-color: rgb(103, 117, 88);
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-header{
-    background-color: greenyellow;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 25px;
     text-align: center;
+    border-bottom: 2px solid limegreen;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid limegreen;
+    border-radius: 50%;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: limegreen;
+    font-size: 36px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 12px 20px;
+    border: 2px solid limegreen;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: limegreen;
+    color: black;
+}
+
+.inicio,
+.conteudo {
+    width: 80%;
+    margin: 100px auto;
+    font-size: 25px
+}
+
+ .agro{
+    width:50%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.rodapé{
+     width: 50%;
+    margin: 25px auto;
+
 }
